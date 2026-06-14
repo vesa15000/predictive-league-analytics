@@ -10,6 +10,8 @@ Promeniti **csv_path** na putanju gde ste generisali **participants.csv** ako je
 ## riot_csv_process.py
 Promeniti **csv_path** na putanju gde ste generisali **clean_data.csv** ako je potrebno. Ova skripta će izvršiti generalnu analizu nad odabranim temama i parametrima i ispisati grafike i rezultate za njih.
 
+## random_forrest_finished_matches.py
+Promeniti **csv_path** na putanju gde ste generisali **clean_data.csv** ako je potrebno. Ova skripta će spremiti podatke za radnom forrest algoritam, izvršiti isti i prikazati rang najbitnijih parametara.
 
 ## create_subset.py
 Promeniti **file_path** na putanju gde ste skinuli **matches.csv**. Link do csv fajla: https://www.kaggle.com/datasets/nathansmallcalder/league-of-legends-match-interval-snapshots-2026?select=matches.csv
