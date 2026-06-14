@@ -4,9 +4,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+csv_path = "clean_data.csv"
+
 #%% work with the new csv
 
-df = pd.read_csv("clean_data.csv")
+df = pd.read_csv(csv_path)
 
 df.dropna()
 

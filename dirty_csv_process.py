@@ -2,9 +2,11 @@
 
 import pandas as pd
 
+csv_path = "participants.csv"
+
 #%% read the new csv we just made and drop excess columns
 
-data_dirty = pd.read_csv("participants.csv", low_memory=False)
+data_dirty = pd.read_csv(csv_path, low_memory=False)
 
 data_clean = data_dirty.loc[:, ["assists", 
                                 "challenges.gameLength",

@@ -5,7 +5,9 @@ from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-dataForAnalysis = pd.read_csv("clean_data.csv", low_memory=False)
+csv_path = "clean_data.csv"
+
+dataForAnalysis = pd.read_csv(csv_path, low_memory=False)
 
 dataForAnalysis.drop(columns='challenges.flawlessAces')
 

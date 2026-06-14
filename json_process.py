@@ -5,12 +5,12 @@ import json
 
 #%%Cut down json to 10000 matches
 
-input_file = "match_data.jsonl"
+json_path = "match_data.jsonl"
 output_file = "match_data_10k.jsonl"
 
 max_matches = 10000
 
-with open(input_file, "r", encoding="utf-8") as infile, \
+with open(json_path, "r", encoding="utf-8") as infile, \
      open(output_file, "w", encoding="utf-8") as outfile:
 
     for i, line in enumerate(infile):
