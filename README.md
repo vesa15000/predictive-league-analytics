@@ -22,7 +22,7 @@ Promeniti **intervals_path** na putanju gde ste skinuli **intervals.csv**. Link 
 
 Promeniti **processed_summoner_data_path** na putanju gde ste skinuli **processed_summoner_data.csv**. Link do csv fajla: https://www.kaggle.com/datasets/nathansmallcalder/league-of-legends-match-interval-snapshots-2026?select=processed_summoner_data.csv
 
-## random_forrest_finished_matches.py
+## random_forrest_intervals_matches.py
 Izvršiti fajl
 ## train.py
 Izvršiti fajl
