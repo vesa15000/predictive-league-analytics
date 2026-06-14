@@ -1,6 +1,6 @@
 # predictive-league-analytics
 Extracting and analyzing 10,000+ League of Legends matches via the Riot API to uncover objective value, map lane importance, and predict game results.
-# Uputsvo za skripte
+# Uputstvo za skripte
 ## create_subset.py
 Promeniti **file_path** na putanju gde ste skinuli **matches.csv**. Link do csv fajla: https://www.kaggle.com/datasets/nathansmallcalder/league-of-legends-match-interval-snapshots-2026?select=matches.csv
 
